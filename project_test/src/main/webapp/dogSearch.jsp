@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,41 +13,41 @@
     
 
     <body>
-        <h3>ê²¬ì¢… ì •ë³´</h3>
+        <h3>°ßÁ¾ Á¤º¸</h3>
         <hr>
 
         <div class="divall">
             <div class="filtering">
                 <div class="filterTitle">
-                    <h3>ì œí’ˆê²€ìƒ‰</h3>
+                    <h3>Á¦Ç°°Ë»ö</h3>
                 </div>
                 <span>
                     <input type="search">
                 </span>
                 <span>
-                    <input type="submit" value="ê²€ìƒ‰">
+                    <input type="submit" value="°Ë»ö">
                 </span>
                 <hr>
 
-                <h3>í’ˆì¢…</h3>
+                <h3>Ç°Á¾</h3>
                 <ul>
                     <li>
-                        <div><input type="checkbox" name="filter1">ìš”í¬ì…”í…Œë¦¬ì–´</div>
+                        <div><input type="checkbox" name="filter1">¿äÅ©¼ÅÅ×¸®¾î</div>
                     </li>
                     <li>
-                        <div><input type="checkbox" name="filter1">ì‹œì¸„</div>
+                        <div><input type="checkbox" name="filter1">½ÃÃò</div>
                     </li>
                     <li>
-                        <div><input type="checkbox" name="filter1">ì‹œì¸„</div>
+                        <div><input type="checkbox" name="filter1">½ÃÃò</div>
                     </li>
                     <li>
-                        <div><input type="checkbox" name="filter1">ì‹œì¸„</div>
+                        <div><input type="checkbox" name="filter1">½ÃÃò</div>
                     </li>
                 </ul>
             </div>
             <div class="result">
                 <div class="title">
-                    <h2>ê²€ìƒ‰ê²°ê³¼</h2>
+                    <h2>°Ë»ö°á°ú</h2>
                 </div>    
                 
                 <hr>
