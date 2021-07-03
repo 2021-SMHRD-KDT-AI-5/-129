@@ -22,9 +22,26 @@
 .clearfix:after {
 	clear: both;
 }
+/* 수정사항
+
+*/
+
+#Loginpage{
+	border: 1px solid black;
+}
+
+#Login{
+	position: absolute;
+	color: #9c9898;
+	top: 2em;
+	right: 2em;
+	font-size:15px;
+}
+
+/*--------------------------------------------------------  */
 
 body {
-	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	font-family: '여기어때 잘난체';
 	color: #444;
 	background: #fff;
 	-webkit-font-smoothing: antialiased;
@@ -178,6 +195,10 @@ a:focus {
 	padding: 3em 0;
 }
 
+
+#Alonso{
+	padding-bottom: 600px;
+}
 .section {
 	display: -webkit-flex;
 	display: flex;
@@ -187,6 +208,8 @@ a:focus {
 	justify-content: center;
 	-webkit-align-items: center;
 	align-items: center;
+	
+	
 }
 
 .section:nth-of-type(odd):not(:first-child) {
@@ -199,6 +222,7 @@ a:focus {
 	overflow: hidden;
 	min-height: 80vh;
 	padding: 2em 0 8em;
+	
 }
 
 .break {
@@ -208,11 +232,11 @@ a:focus {
 }
 
 .section__title {
-	font-size: 0.65em;
+	font-size: 2em;
 	font-weight: 700;
 	-webkit-flex: none;
 	flex: none;
-	margin: 3em 0 15em;
+	margin: 3em 0 6em;
 	text-indent: 3px;
 	letter-spacing: 3px;
 	text-transform: uppercase;

@@ -1,14 +1,67 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="EUC-KR">
-<title>Insert title here</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/votepage.css" />
+    
 </head>
 <body>
-
-<h1>�������� ������</h1>
-
+    <form action="" method="">
+        <fieldset>
+            <table >
+                <legend>
+                    <h1>설문조사</h1>
+                    <tr>
+                        <td>
+                            <!-- 설문조사 내용 -->
+                            1. 내용설문조사 내용 내용설문조사 내용 내용설문조사 내용 
+                        </td>
+                        <!-- 설문조사와 radio버튼 사이 간격설정 공백 -->
+                        <td></td>
+                        <td>
+                            <!-- 예 아니오 체크 *name값 value값 주어야함 -->
+                            예<input type="radio" value="check" name="">
+                            아니오<input type="radio" value="check" name="">
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- 설문조사 내용 -->
+                            1. 내용설문조사 내용 내용설문조사 내용 내용설문조사 내용 
+                        </td>
+                        <!-- 설문조사와 radio버튼 사이 간격설정 공백 -->
+                        <td></td>
+                        <td>
+                            <!-- 예 아니오 체크 *name값 value값 주어야함 -->
+                            예<input type="radio" value="check" name="">
+                            아니오<input type="radio" value="check" name="">
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- 설문조사 내용 -->
+                            1. 내용설문조사 내용
+                        </td>
+                        <!-- 설문조사와 radio버튼 사이 간격설정 공백 -->
+                        <td></td>
+                        <td>
+                            <!-- 예 아니오 체크 *name값 value값 주어야함 -->
+                            예<input type="radio" value="check" name="">
+                            아니오<input type="radio" value="check" name="">
+                        </td>
+                        
+                    </tr>
+                </legend>
+            </table>    
+        <div>
+            <input type="submit" value="설문완료"class="submit">
+        </div>
+        </fieldset>
+    </form>
 </body>
 </html>
