@@ -21,10 +21,7 @@
         .best_dog_list li span.point span{display:inline-block;font-size:35px;font-weight:normal;}
         .best_dog_list li span.name{margin-top:10px;font-size:26px;}
         .best_dog_list li span.thumb_detail{width:150px;margin:0 auto 10px;padding:5px 0;border-radius:10px;font-size:16px;margin-bottom:10px;color:#fff;background:#ca3f2c;}
-        /* body{
-            background-image: url(img/dog.png);
-            background-repeat: repeat;
-        } */
+     
         </style>
 </head>
 <body>
