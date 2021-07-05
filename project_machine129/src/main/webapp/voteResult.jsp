@@ -25,7 +25,7 @@
         </style>
 </head>
 <body>
-
+////////
  <h1>내 설문조사 결과</h1>
     <div>
     <ul class="best_dog_list">
