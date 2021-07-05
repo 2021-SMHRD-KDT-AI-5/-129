@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
 	pageEncoding="EUC-KR"%>
+	<%@page import="model.memberDTO"%>
+	<%@page import="java.util.ArrayList"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,7 +53,7 @@
 							<li><a href="">서비스소개</a></li>
 						</ul>
 						</li>
-					<li class="menu__item"><a href="#" class="menu__link">유기견센터찾기</a>
+					<li class="menu__item"><a href="#" class="menu__link">센터찾기</a>
 					<ul class=menu__menu>
 							<li><a href="">지역별 찾기</a></li>
 						</ul>
@@ -60,15 +62,16 @@
 					<!-- 설문조사 링크 -->
 					<li class="menu__item menu__item--current"><a href="votePage.jsp" id="vote_link" class="menu__link">설문조사 </a></li>
 
-					<li class="menu__item"><a href="#" class="menu__link">견종 정보</a>
+					<li class="menu__item"><a href="dogSearch.jsp" class="menu__link">견종 정보</a>
 					<ul class=menu__menu>
-							<li><a href="">견종백과</a></li>
-							<li><a href="">추천결과</a></li>
+							<!-- 견종 테이블 써서 이름,피지컬정보,주요질병보여주는 페이지 -->
+							<li><a href="dogSearch.jsp">견종백과</a></li>
 						</ul>
 						</li>
 					<li class="menu__item"><a href="#" class="menu__link">상품추천</a>
 						<ul class=menu__menu>
-							<li><a href="">사료추천</a></li>
+							
+							<li><a href="food.jsp">사료추천</a></li>
 							<li><a href="">미용추천</a></li>
 						</ul>
 					</li>
@@ -76,6 +79,6 @@
 			</nav>
 		</section>
 
-
+	
 </body>
 </html>
