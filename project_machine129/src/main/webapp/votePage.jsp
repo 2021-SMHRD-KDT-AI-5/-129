@@ -11,7 +11,7 @@
 </head>
 
 <body background="img/back_ground1.png">
-
+<%@ include file = "newHome.jsp" %>
 
 
 	<form action="voteResult.jsp">
