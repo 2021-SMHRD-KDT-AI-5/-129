@@ -39,40 +39,37 @@
 
 
 			<!-- 타이틀 -->
-			<a href="index.html"><h1 class="section__title">머신129</h1></a>
+			<a href="homePage.jsp"><h1 class="section__title">머신129</h1></a>
 
 
 			<nav class="menu menu--alonso">
 				<ul class="menu__list">
 					<!--  메인으로 -->
 
-					<li class="menu__item"><a href="" class="menu__link">메뉴1</a>
-						<ul class=menu__menu>
-							<li><a href="">메뉴1-1</a></li>
-							<li><a href="">메뉴1-2</a></li>
-							<li><a href="">메뉴1-3</a></li>
-						</ul></li>
-					<li class="menu__item"><a href="#" class="menu__link">메뉴2</a>
-						<ul class=menu__menu>
-							<li><a href="">메뉴2-1</a></li>
-							<li><a href="">메뉴2-2</a></li>
-							<li><a href="">메뉴2-3</a></li>
-						</ul></li>
+					<li class="menu__item"><a href="" class="menu__link">공지</a>
+					<ul class=menu__menu>
+							<li><a href="">서비스소개</a></li>
+						</ul>
+						</li>
+					<li class="menu__item"><a href="#" class="menu__link">유기견센터찾기</a>
+					<ul class=menu__menu>
+							<li><a href="">지역별 찾기</a></li>
+						</ul>
+					</li>	
 
 					<!-- 설문조사 링크 -->
 					<li class="menu__item menu__item--current"><a href="votePage.jsp" id="vote_link" class="menu__link">설문조사 </a></li>
 
-					<li class="menu__item"><a href="#" class="menu__link">메뉴3</a>
+					<li class="menu__item"><a href="#" class="menu__link">견종 정보</a>
+					<ul class=menu__menu>
+							<li><a href="">견종백과</a></li>
+							<li><a href="">추천결과</a></li>
+						</ul>
+						</li>
+					<li class="menu__item"><a href="#" class="menu__link">상품추천</a>
 						<ul class=menu__menu>
-							<li><a href="">메뉴3-1</a></li>
-							<li><a href="">메뉴3-2</a></li>
-							<li><a href="">메뉴3-3</a></li>
-						</ul></li>
-					<li class="menu__item"><a href="#" class="menu__link">메뉴4</a>
-						<ul class=menu__menu>
-							<li><a href="">메뉴4-1</a></li>
-							<li><a href="">메뉴4-2</a></li>
-							<li><a href="">메뉴4-3</a></li>
+							<li><a href="">사료추천</a></li>
+							<li><a href="">미용추천</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -80,85 +77,5 @@
 		</section>
 
 
-
-		<!-- end copy -->
-		<!-- Related demos -->
-		<section class="content content--related">
-			<p>If you enjoyed this demo you might also like:</p>
-			<div class="content__wrap content__wrap--related">
-				<a class="media-item"
-					href="http://tympanus.net/Development/TextStylesHoverEffects/">
-					<img class="media-item__img"
-					src="img/related/LinkStylesHoverEffects.jpg">
-					<h3 class="media-item__title">Text Styles and Hover Effects</h3>
-				</a> <a class="media-item"
-					href="http://tympanus.net/Development/TextInputEffects/"> <img
-					class="media-item__img" src="img/related/TextInputEffects.jpg">
-					<h3 class="media-item__title">Text Input Effects</h3>
-				</a> <a class="media-item"
-					href="http://tympanus.net/Development/CreativeLinkEffects/"> <img
-					class="media-item__img" src="img/related/CreativeLinkEffects.png">
-					<h3 class="media-item__title">Creative Link Effects</h3>
-				</a> <a class="media-item"
-					href="http://tympanus.net/Development/ButtonStylesInspiration/">
-					<img class="media-item__img"
-					src="img/related/ButtonStylesInspiration.png">
-					<h3 class="media-item__title">Button Styles Inspiration</h3>
-				</a>
-			</div>
-		</section>
-	</div>
-	<!-- /container -->
-	<script src="js/classie.js"></script>
-	<script src="js/clipboard.min.js"></script>
-	<script>
-		(function() {
-			[].slice
-					.call(document.querySelectorAll('.menu'))
-					.forEach(
-							function(menu) {
-								var menuItems = menu
-										.querySelectorAll('.menu__link'), setCurrent = function(
-										ev) {
-									ev.preventDefault();
-
-									var item = ev.target.parentNode; // li
-
-									// return if already current
-									if (classie
-											.has(item, 'menu__item--current')) {
-										return false;
-									}
-									// remove current
-									classie
-											.remove(
-													menu
-															.querySelector('.menu__item--current'),
-													'menu__item--current');
-									// set current
-									classie.add(item, 'menu__item--current');
-								};
-
-								[].slice.call(menuItems).forEach(function(el) {
-									el.addEventListener('click', setCurrent);
-								});
-							});
-
-			[].slice.call(document.querySelectorAll('.link-copy')).forEach(
-					function(link) {
-						link.setAttribute('data-clipboard-text',
-								location.protocol + '//' + location.host
-										+ location.pathname + '#'
-										+ link.parentNode.id);
-						new Clipboard(link);
-						link.addEventListener('click', function() {
-							classie.add(link, 'link-copy--animate');
-							setTimeout(function() {
-								classie.remove(link, 'link-copy--animate');
-							}, 300);
-						});
-					});
-		})(window);
-	</script>
 </body>
 </html>
